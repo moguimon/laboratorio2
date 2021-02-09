@@ -12,7 +12,7 @@ header{
 }
 
 h1{
-	background-color: #0B9D6C;
+	background-color: #11A030;
 	color:yellow;
 	border: 10px solid blue; /*pongo un borde ancho rojo*/
 	border-radius: 15px; /*redondeo las esquinas*/
@@ -20,26 +20,22 @@ h1{
 }
 table{
 	text-align: center;
-	background-color: #0B9D6C;
+	background-color: #11A030;
 	width: 25%;
 	height: 25%;
 	margin: auto;
 	border:2px blue dashed; /*borde rojo con guiones*/
 }
 p{ 
-	color: #070E3F; 
+	color: #19752D; 
 	font-family: Verdana;
+	text-decoration: underline;
+
 }
 
-a{
-  color: #DCCF01;
-  border-bottom: none;
-  text-decoration: underline;
-}
 div{
-	color:white;
+	color:green;
 	font-weight: bold;
-
 	margin: auto;
 }
 
