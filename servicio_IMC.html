@@ -1,0 +1,55 @@
+<!DOCTYPE html> <!-- Estamos en HTML-->
+<html lang="es">
+
+<head>
+	<meta charset="utf-8"/> <!-- como será presentado el texto del html-->
+	<meta name="description" content="Calcular IMC con peso y altura"><!--para los buscadores-->
+	<meta name="keywords" content="IMC"> <!--para los buscadores-->
+	<title> Laboratorio #2 </title>
+	<script type="text/javascript" src="js/calcular_IMC.js"></script> <!--donde esta mi código-->
+	<noscript>Se necesita activar JavaScript </noscript> <!--hay que tener activo JavaScript-->
+	<link rel="stylesheet" type="text/css" href="css/mi_h_estilo.css"/> <!--donde está mi hoja de estilo css -->
+</head>
+
+<body>
+	
+	<header> <!--Para compatibilidad con otros dispositivos e informar al navegador de la estruc del doc-->
+		<h1> Laboratorio #2: Creación de un servicio web sencillo </h1> <!--Título-->
+	</header>
+
+	<section> <!--zona principal en html5-->
+	<p align="center"><strong>Aplicación que calcula el Índice de Masa Corporal (IMC)</strong></p>
+	
+	<form name="miform" id="miform" method="get" action="#" autocomplete="off"><p>
+		<table>
+			<tr><td>
+				Hombre: <input type="radio" id="hombre" name="sexo" value="hombre" checked="">
+				Mujer: <input type="radio" id="mujer" name="sexo" value="mujer">
+			</td></tr><br>
+			<!--usamos tipo number para comprobar que se introduce un número-->
+
+			<tr><td>
+				Altura en centímetros: 
+				<input type="number" name="altura" id="altura" placeholder="cm" min="0" max="300">
+			</td></tr><br> </p>
+
+			<tr><td>
+				Peso en kilogramos: 
+				<input type="number" name="peso" id="peso" align="center" placeholder="kg" min="0" max="500" autofocus>
+			</td></tr><br> 
+			
+			<tr><td>
+				<input type="button" id="boton" onclick="calcular_IMC()" value="Calcular IMC" />
+				<input type="reset" id="resetea" value="Borrar datos"> 
+			</td></tr>
+			
+		</table>
+  	</form>
+
+  	<div id="resultado"> </div>
+  	</section>
+
+	<footer id="nota_pie"> Programado por JRMG</footer>
+
+</body>
+</html>
