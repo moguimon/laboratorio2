@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*selectores de etiqueta*/
+body{
+	padding: 5px; /*márgenes*/
+	background-color: purple;/*#00F; /*azul*/
+	font-family: Arial;
+}
+
+header{
+	text-shadow: red 1.5px 1.5px; /*pongo sombra roja al texto*/
+}
+
+h1{
+	background-color: pink;
+	color:purple;
+	border: 10px solid red; /*pongo un borde ancho rojo*/
+	border-radius: 15px; /*redondeo las esquinas*/
+	text-align: center; /*centro el texto*/
+}
+table{
+	text-align: center;
+	background-color: pink;
+	width: 25%;
+	height: 25%;
+	margin: auto;
+	border:2px #F30 dashed; /*borde rojo con guiones*/
+}
+p{ 
+	color: pink; 
+	font-family: Verdana;
+}
+
+a{
+  color: #DCCF01;
+  border-bottom: none;
+  text-decoration: underline;
+}
+div{
+	color:white;
+	font-weight: bold;
+
+	margin: auto;
+}
+
+/*selectores de tipo id #*/
+
+#nota_pie{
+	clear: both;
+	font: 0.8em Georgia;
+	color: #665; /*gris*/
+	text-align: right;
+}
+
+#boton{
+	background-color: green;
+	border-color: pink;
+}
+#resetea{
+	background-color: red;
+	border-color: pink;
+}
+/*selectores de tipo clase @*/
