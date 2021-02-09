@@ -3,7 +3,7 @@
 /*selectores de etiqueta*/
 body{
 	padding: 5px; /*márgenes*/
-	background-color: purple;/*#00F; /*azul*/
+	background-color: #00F; /*azul*/
 	font-family: Arial;
 }
 
@@ -12,7 +12,7 @@ header{
 }
 
 h1{
-	background-color: pink;
+	background-color: #19EAD3;
 	color:purple;
 	border: 10px solid red; /*pongo un borde ancho rojo*/
 	border-radius: 15px; /*redondeo las esquinas*/
@@ -20,14 +20,14 @@ h1{
 }
 table{
 	text-align: center;
-	background-color: pink;
+	background-color: #19EAD3;
 	width: 25%;
 	height: 25%;
 	margin: auto;
 	border:2px #F30 dashed; /*borde rojo con guiones*/
 }
 p{ 
-	color: pink; 
+	color: #070E3F; 
 	font-family: Verdana;
 }
 
@@ -53,11 +53,10 @@ div{
 }
 
 #boton{
-	background-color: green;
-	border-color: pink;
+	color white;
+	background-color: blue;
 }
 #resetea{
-	background-color: red;
-	border-color: pink;
+	background-color: blue;
 }
 /*selectores de tipo clase @*/
