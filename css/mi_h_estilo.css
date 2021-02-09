@@ -3,7 +3,7 @@
 /*selectores de etiqueta*/
 body{
 	padding: 5px; /*márgenes*/
-	background-color: #00F; /*azul*/
+	background-color: #40EAB1; /*azul*/
 	font-family: Arial;
 }
 
@@ -12,19 +12,19 @@ header{
 }
 
 h1{
-	background-color: #19EAD3;
-	color:purple;
-	border: 10px solid red; /*pongo un borde ancho rojo*/
+	background-color: #0B9D6C;
+	color:yellow;
+	border: 10px solid blue; /*pongo un borde ancho rojo*/
 	border-radius: 15px; /*redondeo las esquinas*/
 	text-align: center; /*centro el texto*/
 }
 table{
 	text-align: center;
-	background-color: #19EAD3;
+	background-color: #0B9D6C;
 	width: 25%;
 	height: 25%;
 	margin: auto;
-	border:2px #F30 dashed; /*borde rojo con guiones*/
+	border:2px blue dashed; /*borde rojo con guiones*/
 }
 p{ 
 	color: #070E3F; 
